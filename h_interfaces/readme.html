@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Csc120-042 README for Interfaces</title>
+</head>
+<body style="margin:2em;">
+<h3>Csc120-042 README for Interfaces</h3>
+<pre>
+Ver1 is a simple linked list implementation.
+
+Ver2 uses h_interfaces to print the linked list. We replace
+printing a node with a method call, printNode. The body
+of printNode is supplied by an object of a class which
+knows the type of node that is to be printed. In this
+case, a node containing String. An interface is defined
+so that the print routine of LinkedList will allow any
+class which has a printNode method to be passed to it.
+
+Ver3 uses h_interfaces to search a linked list. Again
+an interface is defined for any class which has a
+compareNode method. The class implements compareNode
+for a specific kind of node, in our case, a node
+with String contents.
+
+This is a bit more sophisticated
+than the printNode example since the constructor
+of an object that implements compareNode takes a String
+argument and remembers it. This String that will be compared
+against the String content of the LinkedListNode on which
+this method will be invoked.
+
+</pre>
+</body>
+</html>

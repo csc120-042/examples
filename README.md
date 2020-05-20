@@ -2,7 +2,7 @@
 
 # CSC120-S: Computer Programming I
 
-<div style="text-align:center;" width=150>
+<div style="margin-left:3em;">
 
 Prof. B. Rosenberg
   

@@ -4,7 +4,7 @@ INTERFACE EXAMPLES
 
 Ver1 is a simple linked list implementation.
 
-Ver2 uses h_interfaces to print the linked list. We replace
+Ver2 uses interfaces to print the linked list. We replace
 printing a node with a method call, printNode. The body
 of printNode is supplied by an object of a class which
 knows the type of node that is to be printed. In this
@@ -12,7 +12,7 @@ case, a node containing String. An interface is defined
 so that the print routine of LinkedList will allow any
 class which has a printNode method to be passed to it.
 
-Ver3 uses h_interfaces to search a linked list. Again
+Ver3 uses interfaces to search a linked list. Again
 an interface is defined for any class which has a
 compareNode method. The class implements compareNode
 for a specific kind of node, in our case, a node
